@@ -1,0 +1,65 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX Customizations for Slides
+%% Min-Hua Ivy Chen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Packages
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs} % for tabular \toprule etc.
+\usepackage{enumerate}
+
+%% Color Definition
+\definecolor{dkgreen}{rgb}{0,0.4,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{navy}{rgb}{0.07 0.125 0.361}
+
+%% Hyperlink customizations
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=navy,          % color of internal links (change box color with linkbordercolor)
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+%\usepackage[linkbordercolor={0.07 0.125 0.361}]{hyperref}
+
+%\floatstyle{plain}
+%\newfloat{figure}{thp}{}
+%\floatname{figure}{Figure}
+
+%% Shortcuts
+\newcommand{\vk}{\vec{k}}
+\newcommand{\angstrom}{\textup{ \AA}}
+\newcommand{\Joules}{\textrm{ J}}
+\newcommand{\eV}{\textrm{ eV}}
+\newcommand{\amu}{\textrm{ a.m.u}}
+\newcommand{\kg}{\textrm{ kg}}
+\newcommand{\meters}{\textrm{ m}}
+\newcommand{\seconds}{\textrm{ s}}
+\newcommand{\Hz}{\textrm{ Hz}}
+\newcommand{\THz}{\textrm{ THz}}
+
+
+%% Tweaks
+\renewcommand{\textrm}{\textnormal}
+%\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+\setlength{\parindent}{0.2in}
+\setlength{\parskip}{0.2\baselineskip}
+
